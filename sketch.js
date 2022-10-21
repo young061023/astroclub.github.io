@@ -9,7 +9,7 @@ var nextT = 0;
 var maxChangeForce = 20;
 
 var instructions = [];
-var insText = 'Shindo High School Astronomical Observatory Club';
+var insText = 'Shindo Astronomical Club';
 
 function preload() {
     font = loadFont('NanumBarunGothicLight.otf');
