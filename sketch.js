@@ -18,6 +18,8 @@ function preload() {
 function setup() {
     createCanvas(1495, 350);
     background(50);
+    canvas.style.width = '100%';
+    canvas.style.height = '100%';
 
     var bounds = font.textBounds(texts[nextT], 0, 0, 192);
     var posx = width / 2 - bounds.w / 2;
